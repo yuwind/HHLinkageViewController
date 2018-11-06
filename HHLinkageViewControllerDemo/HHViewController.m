@@ -8,7 +8,7 @@
 
 #import "HHViewController.h"
 #import "HHLinkageViewController.h"
-#import "TestTableViewController.h"
+#import "HHTableViewController.h"
 #import "UIView+HHLayout.h"
 
 @interface HHViewController ()
@@ -22,7 +22,7 @@
     
     self.title = @"首页";
     
-    self.viewControllers = @[[TestTableViewController instanceWithIndex:0],[TestTableViewController instanceWithIndex:1],[TestTableViewController instanceWithIndex:2],[TestTableViewController instanceWithIndex:3],[TestTableViewController instanceWithIndex:4],[TestTableViewController instanceWithIndex:5],[TestTableViewController instanceWithIndex:6],[TestTableViewController instanceWithIndex:7],];
+    self.viewControllers = @[[HHTableViewController instanceWithIndex:0],[HHTableViewController instanceWithIndex:1],[HHTableViewController instanceWithIndex:2],[HHTableViewController instanceWithIndex:3],[HHTableViewController instanceWithIndex:4],[HHTableViewController instanceWithIndex:5],[HHTableViewController instanceWithIndex:6],[HHTableViewController instanceWithIndex:7],];
     self.titlesArray = @[@"我是第0个",@"1个",@"我是第2个",@"我是第3个",@"我是第4个",@"5个",@"我是第6个",@"我是第7个"];
     
     self.headerView = [self configHeaderView];

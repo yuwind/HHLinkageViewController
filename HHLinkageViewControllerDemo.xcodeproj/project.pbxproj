@@ -11,7 +11,7 @@
 		5071EEBB218FE410004222B3 /* HHLinkageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5071EEB5218FE410004222B3 /* HHLinkageView.m */; };
 		5071EEBC218FE410004222B3 /* UIView+HHLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5071EEB9218FE410004222B3 /* UIView+HHLayout.m */; };
 		5071EEBD218FE410004222B3 /* HHLinkageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5071EEBA218FE410004222B3 /* HHLinkageViewController.m */; };
-		507EAE85218AEDC7005D4B8A /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507EAE84218AEDC7005D4B8A /* TestTableViewController.m */; };
+		507EAE85218AEDC7005D4B8A /* HHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507EAE84218AEDC7005D4B8A /* HHTableViewController.m */; };
 		50D3E6802188267200FF134E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D3E67F2188267200FF134E /* AppDelegate.m */; };
 		50D3E6832188267200FF134E /* HHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D3E6822188267200FF134E /* HHViewController.m */; };
 		50D3E6882188267300FF134E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D3E6872188267300FF134E /* Assets.xcassets */; };
@@ -27,8 +27,8 @@
 		5071EEB8218FE410004222B3 /* HHLinkageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLinkageView.h; sourceTree = "<group>"; };
 		5071EEB9218FE410004222B3 /* UIView+HHLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HHLayout.m"; sourceTree = "<group>"; };
 		5071EEBA218FE410004222B3 /* HHLinkageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLinkageViewController.m; sourceTree = "<group>"; };
-		507EAE83218AEDC7005D4B8A /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
-		507EAE84218AEDC7005D4B8A /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		507EAE83218AEDC7005D4B8A /* HHTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHTableViewController.h; sourceTree = "<group>"; };
+		507EAE84218AEDC7005D4B8A /* HHTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHTableViewController.m; sourceTree = "<group>"; };
 		50D3E67B2188267200FF134E /* HHLinkageViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HHLinkageViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D3E67E2188267200FF134E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		50D3E67F2188267200FF134E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -88,8 +88,8 @@
 				50D3E67F2188267200FF134E /* AppDelegate.m */,
 				50D3E6812188267200FF134E /* HHViewController.h */,
 				50D3E6822188267200FF134E /* HHViewController.m */,
-				507EAE83218AEDC7005D4B8A /* TestTableViewController.h */,
-				507EAE84218AEDC7005D4B8A /* TestTableViewController.m */,
+				507EAE83218AEDC7005D4B8A /* HHTableViewController.h */,
+				507EAE84218AEDC7005D4B8A /* HHTableViewController.m */,
 				50D3E6872188267300FF134E /* Assets.xcassets */,
 				50D3E6892188267300FF134E /* LaunchScreen.storyboard */,
 				503A28A6218C467B00111B71 /* pic.jpg */,
@@ -175,7 +175,7 @@
 				5071EEBC218FE410004222B3 /* UIView+HHLayout.m in Sources */,
 				5071EEBB218FE410004222B3 /* HHLinkageView.m in Sources */,
 				50D3E6802188267200FF134E /* AppDelegate.m in Sources */,
-				507EAE85218AEDC7005D4B8A /* TestTableViewController.m in Sources */,
+				507EAE85218AEDC7005D4B8A /* HHTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -95,6 +95,6 @@ target 'MyApp' do
 end
 ```
 
-#####[简书地址](https://github.com/yuwind/HHLinkageViewController)
+#####[简书地址](https://www.jianshu.com/p/49d01f6890ac)
 
 

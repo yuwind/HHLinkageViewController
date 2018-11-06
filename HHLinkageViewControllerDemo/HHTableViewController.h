@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestTableViewController : UITableViewController
+@interface HHTableViewController : UITableViewController
 
 + (instancetype)instanceWithIndex:(NSInteger)index;
 

@@ -6,20 +6,20 @@
 //  Copyright © 2018年 豫风. All rights reserved.
 //
 
-#import "TestTableViewController.h"
+#import "HHTableViewController.h"
 #import "HHLinkageViewController.h"
 
-@interface TestTableViewController ()
+@interface HHTableViewController ()
 
 @property (nonatomic, assign) NSInteger index;
 
 @end
 
-@implementation TestTableViewController
+@implementation HHTableViewController
 
 + (instancetype)instanceWithIndex:(NSInteger)index
 {
-    TestTableViewController *testVC = [self new];
+    HHTableViewController *testVC = [self new];
     testVC.index = index;
     return testVC;
 }
