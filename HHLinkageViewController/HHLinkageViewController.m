@@ -184,6 +184,9 @@ typedef NS_ENUM(NSUInteger, HHScrollDirection) {
     }else{
         _linkageView.y = _collectionView.y-LINKAGEVIEWH;
     }
+    if (self.isNeedHeaderScroll) {
+        _headerView.maxY = _linkageView.y;
+    }
 }
 
 @end

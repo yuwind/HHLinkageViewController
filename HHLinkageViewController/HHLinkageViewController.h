@@ -18,6 +18,7 @@
 @property (nonatomic, strong) UIView *headerView;//自定义头部试图,可以只设置高度
 @property (nonatomic, copy) NSArray *titlesArray;//中间标题
 @property (nonatomic, assign) BOOL isNeedLessMove;//数据少于屏幕是否需要滑动，默认YES
+@property (nonatomic, assign) BOOL isNeedHeaderScroll;//是否需要headerView滚动，默认NO
 
 /**
  需要在子控制器中分别调用
