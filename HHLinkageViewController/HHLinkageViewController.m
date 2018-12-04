@@ -17,7 +17,12 @@ typedef NS_ENUM(NSUInteger, HHScrollDirection) {
 
 #define KSCREENWIDTH [UIScreen mainScreen].bounds.size.width
 #define KSCREENHEIGHT [UIScreen mainScreen].bounds.size.height
-#define KISiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define KISiPhoneX \
+({BOOL isPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bottom > 0.0;\
+}\
+(isPhoneX);})
 #define KNAVBARHEIGHT (KISiPhoneX ? 88.f : 64.f)
 #define KINDICATORHEIGHT (KISiPhoneX ? 34.f : 0.f)
 

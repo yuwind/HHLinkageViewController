@@ -34,6 +34,7 @@
 @property (nonatomic, assign) BOOL isShowIndicator;//默认 YES
 @property (nonatomic, assign) BOOL isShowGradient;//默认 YES
 @property (nonatomic, assign) BOOL isShowSplit;//分割线 默认 NO
+@property (nonatomic, assign) BOOL isFixTitleWidth;//标题宽度 默认 NO
 
 /**
  KVO监听scrollView的滚动

@@ -97,6 +97,17 @@ typedef NS_ENUM(NSUInteger, HHLinkageDirection) {
     CGFloat totleWidth = 0;
     CGFloat buttonMargin = 0;
     CGFloat xPosion = 0;
+    if (self.isFixTitleWidth) {
+        CGFloat maxWidth = 0.0;
+        for (TitleModel *model in self.modelsArray) {
+            if (model.titleWidth>maxWidth) {
+                maxWidth = model.titleWidth;
+            }
+        }
+        for (TitleModel *model in self.modelsArray) {
+            model.titleWidth = maxWidth;
+        }
+    }
     for (TitleModel *model in self.modelsArray) {
         totleWidth += model.titleWidth;
     }
@@ -193,6 +204,7 @@ typedef NS_ENUM(NSUInteger, HHLinkageDirection) {
     for (int i = 0; i < _titleArray.count; i++) {
         UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
         button.titleLabel.font = [UIFont systemFontOfSize:self.fontSize];
+        button.titleLabel.textAlignment = NSTextAlignmentCenter;
         button.tag = KSCROLLBUTTONTAG + i;
         [button setTitle:_titleArray[i] forState:UIControlStateNormal];
         [button setTitleColor:_normalColor forState:UIControlStateNormal];

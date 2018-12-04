@@ -24,7 +24,7 @@
     
     self.viewControllers = @[[HHTableViewController instanceWithIndex:0],[HHTableViewController instanceWithIndex:1],[HHTableViewController instanceWithIndex:2],[HHTableViewController instanceWithIndex:3],[HHTableViewController instanceWithIndex:4],[HHTableViewController instanceWithIndex:5],[HHTableViewController instanceWithIndex:6],[HHTableViewController instanceWithIndex:7],];
     self.titlesArray = @[@"我是第0个",@"1个",@"我是第2个",@"我是第3个",@"我是第4个",@"5个",@"我是第6个",@"我是第7个"];
-    
+
     self.headerView = [self configHeaderView];
 }
 
