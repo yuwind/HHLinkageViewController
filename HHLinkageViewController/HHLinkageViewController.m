@@ -154,12 +154,12 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
                 if (conserverOffset) {
                     _collectionView.y -= (offsetY-conserverOffset);
                     CGRect tempFrame = scrollView.bounds;
-                    tempFrame.origin.y = conserverOffset+0.3;
+                    tempFrame.origin.y = conserverOffset-0.3;
                     scrollView.bounds = tempFrame;
                 }else{
                     _collectionView.y -= offsetY;
                     CGRect tempFrame = scrollView.bounds;
-                    tempFrame.origin.y = 0;
+                    tempFrame.origin.y = -0.3;
                     scrollView.bounds = tempFrame;
                 }
             }else if (_direction == HHScrollDirectionDown){
@@ -173,7 +173,7 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
         if (_collectionView.y<_headerView.height+LINKAGEVIEWH) {
             _collectionView.y += -offsetY;
             CGRect tempFrame = scrollView.bounds;
-            tempFrame.origin.y = -0.3;
+            tempFrame.origin.y = 0.3;
             scrollView.bounds = tempFrame;
             _offsetArray[index] = [NSNumber numberWithFloat:0];
         }else{

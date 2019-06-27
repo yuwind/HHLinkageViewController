@@ -308,14 +308,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QK2ZZJFH25;
+				DEVELOPMENT_TEAM = Q9D8889WQL;
 				INFOPLIST_FILE = "$(SRCROOT)/HHLinkageViewControllerDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yufeng.HHLinkageViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weihu.test111;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -326,14 +326,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QK2ZZJFH25;
+				DEVELOPMENT_TEAM = Q9D8889WQL;
 				INFOPLIST_FILE = "$(SRCROOT)/HHLinkageViewControllerDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yufeng.HHLinkageViewController;
+				PRODUCT_BUNDLE_IDENTIFIER = com.weihu.test111;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
